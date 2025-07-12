@@ -19,7 +19,7 @@ public class Triangle extends Shape {
     }
 
     @Override
-    private double area() {
+    public double area() {
         double s = perimeter() / 2;
         return Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
     }
