@@ -1,3 +1,3 @@
-public class Scalable {
-    
+public interface Scalable {
+    void scale(double factor);
 }
