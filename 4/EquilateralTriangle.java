@@ -1,6 +1,6 @@
 public class EquilateralTriangle extends Triangle {
     public EquilateralTriangle(String name, double side) {
-        suepr(name, side, side, side);
+        super(name, side, side, side);
     }
 
     @Override
